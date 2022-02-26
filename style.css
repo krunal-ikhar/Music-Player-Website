@@ -6,10 +6,43 @@ body{
     background-image: radial-gradient( circle 400px at 6.8% 8.3%,  rgb(204, 223, 135) 0%, rgba(255,244,234,1) 100.2% );
 }
 
+main{
+       border: 3px solid black;
+     width: 65%;
+     display: inline-block;
+     height: 900vh;
+}
+
+aside{
+    width: 25%;
+    display: inline-block;
+    border: 3px solid black;
+    height: 90vh;
+}
 nav{
     height: 6vh;
     background-color: blueviolet;   
+    overflow: hidden ;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .horizontal-list {
@@ -20,7 +53,7 @@ nav{
 
 .horizontal-list li {
     display: inline-block;
-    margin: 0px 8px 8px 0px;
+    margin: 0px 3% 2% 0px;
     font-weight: 100;
     font-size: 20px;
     padding: 12px;
@@ -47,8 +80,9 @@ nav{
 
 .leftal{
     text-align: left;
+    float: left;
 }
 
-.rigthal{
-    text-align: right;
+.rightal{
+    float:right;
 }
